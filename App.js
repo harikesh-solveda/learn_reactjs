@@ -3,6 +3,9 @@
 //     { id: "heading" },
 //     "Hello World From React!"
 // );
+
+// Create Parent and Child Element
+
 const parent = React.createElement("div", { id: "parent" }, [
     React.createElement("div", { id: "child1" },
         [React.createElement("h1", {}, "This is from h1 child"),
